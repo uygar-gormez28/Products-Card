@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .card .img-wrap {
+    border-bottom: 1px solid black;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card .img {
+  height: 250px;
+  padding: 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.card img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.cheched {
+  color: gold;
+}
+
+.title {
+  text-decoration: none;
+}
+
+.price {
+  font-size: 22px;
+  color: blue;
+}
+
+.raiting {
+  font-size: 13px;
+}
